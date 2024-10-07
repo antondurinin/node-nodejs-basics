@@ -1,5 +1,8 @@
+/* To try this in project folder:
+ node src\cli\args.js --name Anton --age 38
+*/
 const parseArgs = () => {
-  // Arg 2 will show us arguments
+  // Arg "2" will show us arguments
   const args = process.argv.slice(2);
   const result = new Map();
   // Loop args
